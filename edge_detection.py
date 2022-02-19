@@ -47,13 +47,15 @@ st.title("Edge Detection Application")
 
 # Original image
 if uploaded_file is None:
-    read_image("demo_image.jpg", caption="Demo Image")
+    image = Image.open("demo_image.jpg")
+    st.image (image, caption="Demo Image", use_column_width=True)
 else:
-    read_image(uploaded_file, caption="Uploaded Image")
+    image = Image.open(uploaded_file)
+    st.image (image, caption="Uploaded Image", use_column_width=True)
 
 # Edge Image
 if edge_button:
-    array = np.asarray(read_image.image)
+    array = np.asarray(image)
     gray = cv2.cvtColor(array, cv2.COLOR_BGR2GRAY)
     blurry = cv2.GaussianBlur(gray, (5, 5), 0)
     if low_thresh == 0 and upper_thresh == 0:
