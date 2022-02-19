@@ -11,7 +11,7 @@ def read_image(dir, caption=None, column_width=True):
 ### Sidebar ###
 
 # Logo
-app_logo = Image.open("./Images/logo.png")
+app_logo = Image.open("./Logos/logo.png")
 st.sidebar.image(app_logo)
 
 # Image Upload
@@ -47,7 +47,7 @@ st.title("Edge Detection Application")
 
 # Original image
 if uploaded_file is None:
-    image = Image.open("./Images/demo_image.jpg")
+    image = Image.open("demo_image.jpg")
     st.image (image, caption="Demo Image", use_column_width=True)
 else:
     image = Image.open(uploaded_file)
