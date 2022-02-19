@@ -3,11 +3,6 @@ from PIL import Image
 import numpy as np
 import cv2
 
-def read_image(dir, caption=None, column_width=True):
-    read_image.image = Image.open(dir)
-    st.image(read_image.image, caption=caption, use_column_width=column_width)
-
-
 ### Sidebar ###
 
 # Logo
@@ -43,7 +38,7 @@ st.sidebar.markdown(
 ### Main App ###
 
 # Main title
-st.title("Edge Detection Application")
+st.title("Edge Detection Application (0.1.0")
 
 # Original image
 if uploaded_file is None:
