@@ -38,7 +38,7 @@ edge_button = st.sidebar.button("Click to detect edges")
 # App development info
 st.sidebar.markdown(
     "Application made by Christos Gkoumas" 
-    "([@n3uro_virtual](https://twitter.com/n3uro_virtual)). Version 0.1.0"
+    "([@n3uro_virtual](https://twitter.com/n3uro_virtual)). Version: 0.1.0"
 )
 
 
