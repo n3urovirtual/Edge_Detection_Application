@@ -2,7 +2,6 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 import cv2
-import io
 
 
 def read_image(dir, caption=None, column_width=True):
