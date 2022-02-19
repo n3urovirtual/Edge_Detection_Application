@@ -47,7 +47,7 @@ st.title("Edge Detection Application")
 
 # Original image
 if uploaded_file is None:
-    image = Image.open("./Images/demo_image.png")
+    image = Image.open("flickr.jpg")
     st.image (image, caption="Demo Image", use_column_width=True)
 else:
     image = Image.open(uploaded_file)
