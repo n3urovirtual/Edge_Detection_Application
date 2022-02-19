@@ -28,17 +28,17 @@ upper_thresh = st.sidebar.number_input(
 # Detect edges button
 edge_button = st.sidebar.button("Click to detect edges")
 
-# App development info
-st.sidebar.markdown(
-    "Application made by Christos Gkoumas" 
-    "([@n3uro_virtual](https://twitter.com/n3uro_virtual)). Version: 0.1.0"
-)
-
 
 ### Main App ###
 
 # Main title
-st.title("Edge Detection Application (0.1.0")
+st.title("Edge Detection Application (Version:0.1.0)")
+
+# App development info
+st.markdown(
+    "Application made by Christos Gkoumas" 
+    "([@n3uro_virtual](https://twitter.com/n3uro_virtual))."
+)
 
 # Original image
 if uploaded_file is None:
