@@ -1,6 +1,5 @@
 # <img src = "https://github.com/n3urovirtual/Edge_Detection_Application/blob/main/Images/logo_background.png" width = 400, height = 225>
 ETNA (Edge Detection Application) is a Streamlit web application that detects edges in an image, using the [Canny Edge Detection algorithm](https://ieeexplore.ieee.org/abstract/document/4767851) (1986).
-<a href="http://example.com/" target="_blank">example</a>
 
 ## Overview
 
