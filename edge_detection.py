@@ -32,7 +32,7 @@ edge_button = st.sidebar.button("Click to detect edges")
 ### Main App ###
 
 # Main title
-st.title("Edge Detection Application (Version:0.1.0)")
+st.title("Edge Detection Application (V 0.1.0)")
 
 # App development info
 st.markdown(
