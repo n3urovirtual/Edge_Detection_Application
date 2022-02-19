@@ -11,7 +11,7 @@ ETNA (Edge Detection Application) is a Streamlit web application that detects ed
 
 ## How to run the app
 
-To run the app, click [here](https://share.streamlit.io/n3urovirtual/edge_detection_application/main/edge_detection.py){:target="_blank" rel="noopener"}.
+To run the app, click [here](https://share.streamlit.io/n3urovirtual/edge_detection_application/main/edge_detection.py).
 
 ## Future development
 
