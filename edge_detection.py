@@ -3,7 +3,6 @@ from PIL import Image
 import numpy as np
 import cv2
 
-
 def read_image(dir, caption=None, column_width=True):
     read_image.image = Image.open(dir)
     st.image(read_image.image, caption=caption, use_column_width=column_width)
@@ -48,7 +47,7 @@ st.title("Edge Detection Application")
 
 # Original image
 if uploaded_file is None:
-    read_image("./Images/demo_image.jpg", caption="Demo Image")
+    read_image("https://github.com/n3urovirtual/Edge_Detection_Application/blob/main/Images/demo_image.JPG", caption="Demo Image")
 else:
     read_image(uploaded_file, caption="Uploaded Image")
 
