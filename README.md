@@ -7,7 +7,7 @@ Edge detection is considered to be a vital step in how humans process visual inf
 ## Description
 This is a Streamlit web application that: (a) detects edges in a user-provided image (already implemented), and (b) calculates edge density for that image (to be added soon). To use the app, follow these steps:
 1. Upload the image for which you want to detect edges.
-2. Specify the thershold values for lower and upper thresholds (if not specified, default values are taken into account to perform the edge detection).
+2. Specify the lower and upper threshold values (if not specified, default values are taken into account to perform the edge detection).
 3. Click on the button "Detect edges".
 4. To download the edged image, click on the button "Download image" that appears. 
 5. (Edge density calculation step to be added soon).
