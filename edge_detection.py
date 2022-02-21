@@ -26,7 +26,7 @@ upper_thresh = st.sidebar.number_input(
 )
 
 # Detect edges button
-edge_button = st.sidebar.button("Click to detect edges")
+edge_button = st.sidebar.button("Detect edges")
 
 
 ### Main App ###
