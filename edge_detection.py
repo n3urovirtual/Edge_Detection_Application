@@ -12,7 +12,7 @@ st.sidebar.image(app_logo)
 # Image Upload
 st.sidebar.subheader("Image Upload:")
 uploaded_file = st.sidebar.file_uploader(
-    "Choose an image from your local directory...", 
+    "Choose an image from your local directory...",
     type=["jpg", "jpeg", "png", "bmp"]
 )
 
@@ -36,8 +36,8 @@ st.title("Edge Detection Application (v0.1.0)")
 
 # App development info
 st.markdown(
-    "Application made by Christos Gkoumas" 
-    "([@n3uro_virtual](https://twitter.com/n3uro_virtual))."
+    "Application made by [Christos Gkoumas]"
+    "(https://github.com/n3urovirtual)."
 )
 
 # Original image
@@ -58,7 +58,7 @@ if edge_button:
     else:
         edged = cv2.Canny(blurry, low_thresh, upper_thresh)
     st.image(edged, caption="Edge Image", use_column_width=True)
-    
+
     # Download button
     im = Image.fromarray(edged)
     im.save("Edge_image.png")
@@ -69,4 +69,3 @@ if edge_button:
                  file_name="Edge_image.png",
                  mime="image/png"
                )
-    
